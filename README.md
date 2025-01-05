@@ -24,7 +24,7 @@
     images: [ 'image4.png', 'image5.png', 'image6.png' ]
   }
 ]
-** sample migration New AWS link :**
+ sample migration New AWS link :
 https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232c/image1.png
 https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232d/image2.png
 https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232d/image3.png
