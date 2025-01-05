@@ -1,7 +1,7 @@
 # Image-Migration-AWS-S3
-Transferring Local Image files to AWS S3 Migration.
-Database collection :
-Products fetched from database: [
+# Transferring Local Image files to AWS S3 Migration.
+# Database collection :
+# Products fetched from database: [
   {
     _id: new ObjectId('677a254a5a5609d1e6a3232c'),
     name: 'Wireless Headphones',
@@ -24,15 +24,15 @@ Products fetched from database: [
     images: [ 'image4.png', 'image5.png', 'image6.png' ]
   }
 ]
-sample migration New AWS link :
-https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232c/image1.png
-https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232d/image2.png
-https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232d/image3.png
-https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232e/image4.png
-https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232e/image5.png
-https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232e/image6.png
+# sample migration New AWS link :
+# https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232c/image1.png
+# https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232d/image2.png
+# https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232d/image3.png
+# https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232e/image4.png
+# https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232e/image5.png
+# https://tuttumon.s3.ap-south-1.amazonaws.com/products/677a254a5a5609d1e6a3232e/image6.png
 
-NEW UPDATED DATABASE COLLECTION:
+# NEW UPDATED DATABASE COLLECTION:
 [
     {
         "_id": "677a254a5a5609d1e6a3232c",
