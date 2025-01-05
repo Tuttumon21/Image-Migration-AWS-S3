@@ -7,9 +7,9 @@ const logger = console; // Replace with a logging library like Winston if prefer
 
 // AWS Configuration
 AWS.config.update({
-    accessKeyId: AWS_ACCESS_KEY_ID,
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-    region: AWS_REGION
+    region: process.env.AWS_REGION
 }); // e.g., 'us-east-1'
 const s3 = new AWS.S3();
 const BUCKET_NAME = process.env.BUCKET_NAME;
